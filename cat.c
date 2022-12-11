@@ -8,7 +8,7 @@ void ft_putchar(char *str);
 int main() {
   char s1[] = "Password safe";
   char s2[] = "Passord safe";
-  unsigned int n = 8;
+  unsigned int n = 9;
   int x = ft_strncp(s1, s2, n);
   printf("%i\n", x);
 }
