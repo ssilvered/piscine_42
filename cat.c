@@ -9,7 +9,6 @@ int main() {
   char s1[] = "Password safe";
   char s2[] = "Passord safe";
   unsigned int n = 8;
-  ft_strncp(s1, s2, n);
   int x = ft_strncp(s1, s2, n);
   printf("%i\n", x);
 }
