@@ -6,7 +6,7 @@ void ft_putchar(char *dest);
 
 int main() {
   char str[20] = "123456789";
-  char to_find[20] = "345";
+  char to_find[20] = "34";
   ft_putchar(ft_strstr(str, to_find));
 }
 
